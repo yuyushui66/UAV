@@ -6,9 +6,25 @@ processData是我进行数据处理的代码，当然有部分数据处理代码
 
 由于上传至github的速度过慢，因此在训练过程中的过程文件都没有保留，至保留了源码和和部分训练日志文件
 
-processData/ans.py
+processData/ans.py 将最后的结果转化为老师作业要求的json形式
+  
+processData/computeAcc.py 计算OStrack的准确度
 
-processData/computeAcc.py
+processData/computeAccYolo.py 计算机YOLO的准确度
 
-processData/computeAccYolo.py
+processData/dealTest.py 生成YOLO的test的数据
+
+processData/getyolodata.py 将数据处理成YOLO需要的数据
+
+processData/getYoloTestdata.py 将训练集中的部分数据转化YOLO的测试数据
+
+processData/labels.py 得到YOLO训练需要的labels
+
+processData/splitDataset.py 分割训练集
+
+processData/YOLOResData.py 处理YOLO的结果文件
+
+
+
+
 
