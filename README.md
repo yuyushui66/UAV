@@ -36,6 +36,15 @@ OStrack/tensorboard tensorboard文件
 
 OStrack/tracking OStrack的主要启动代码
 
+yolov5/models YOLO主要的参数配置
+
+yolov5/runs 放置运行结果，但是由于文件过大，被删除
+
+yolov5/train.py 训练部分主要程序
+
+yolov5/detect.py 检测部分主要程序
+
+
 
 
 
