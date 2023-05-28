@@ -24,6 +24,17 @@ processData/splitDataset.py 分割训练集
 
 processData/YOLOResData.py 处理YOLO的结果文件
 
+OStrack/experiments OStrack的参数设置
+
+OStrack/lib OStrack 的主要代码
+
+OStrack/output OStrack 训练与测试输出文件，但是由于其中文件比较大，被删除，只保留了训练日志
+
+OStrack/pretrained_models 预训练参数放置的位置
+
+OStrack/tensorboard tensorboard文件
+
+OStrack/tracking OStrack的主要启动代码
 
 
 
